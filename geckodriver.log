@@ -1,0 +1,270 @@
+1519007266262	geckodriver	INFO	Listening on 127.0.0.1:60645
+1519007267708	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519007277631	Marionette	INFO	Enabled via --marionette
+1519007287024	Marionette	INFO	Listening on port 33599
+1519007288478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519007548044	geckodriver	INFO	Listening on 127.0.0.1:40815
+1519007549288	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519007552271	Marionette	INFO	Enabled via --marionette
+1519007559564	Marionette	INFO	Listening on port 42005
+1519007559679	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8054, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 8016, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1519008163739	geckodriver	INFO	Listening on 127.0.0.1:43731
+1519008163980	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519008172386	geckodriver	INFO	Listening on 127.0.0.1:44063
+1519008173661	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519008177226	Marionette	INFO	Enabled via --marionette
+1519008187854	Marionette	INFO	Listening on port 36387
+1519008190187	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519008243634	geckodriver	INFO	Listening on 127.0.0.1:40595
+1519008244867	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519008248103	Marionette	INFO	Enabled via --marionette
+1519008255507	Marionette	INFO	Listening on port 35705
+1519008255630	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519008314703	geckodriver	INFO	Listening on 127.0.0.1:58293
+1519008315978	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519008318875	Marionette	INFO	Enabled via --marionette
+1519008325828	Marionette	INFO	Listening on port 46481
+1519008325886	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9383, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1519008358232	geckodriver	INFO	Listening on 127.0.0.1:38513
+1519008359406	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519008362229	Marionette	INFO	Enabled via --marionette
+1519008368490	Marionette	INFO	Listening on port 38191
+1519008368588	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519008388437	geckodriver	INFO	Listening on 127.0.0.1:58177
+1519008389611	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519008392732	Marionette	INFO	Enabled via --marionette
+1519008399195	Marionette	INFO	Listening on port 44069
+1519008400282	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9755, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1519009350334	geckodriver	INFO	Listening on 127.0.0.1:33241
+1519009351620	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519009357515	Marionette	INFO	Enabled via --marionette
+1519009365463	Marionette	INFO	Listening on port 42691
+1519009368146	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1519009969436	geckodriver	INFO	Listening on 127.0.0.1:45545
+1519009970711	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519009972977	Marionette	INFO	Enabled via --marionette
+1519010185300	geckodriver	INFO	Listening on 127.0.0.1:41295
+1519010186570	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519010189367	Marionette	INFO	Enabled via --marionette
+1519010195271	Marionette	INFO	Listening on port 38981
+1519010195350	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519010257557	geckodriver	INFO	Listening on 127.0.0.1:55623
+1519010258813	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519010261671	Marionette	INFO	Enabled via --marionette
+1519010267737	Marionette	INFO	Listening on port 46429
+1519010270537	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11403, Chrome_ChildThread] WARNING: pipe error (17): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1519010309731	geckodriver	INFO	Listening on 127.0.0.1:45669
+1519010310901	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519010313673	Marionette	INFO	Enabled via --marionette
+1519010319618	Marionette	INFO	Listening on port 37483
+1519010320248	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519010427010	geckodriver	INFO	Listening on 127.0.0.1:40439
+1519010428176	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519010431082	Marionette	INFO	Enabled via --marionette
+1519010437316	Marionette	INFO	Listening on port 46121
+1519010437366	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519010476052	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+JavaScript error: http://bourbon.xwork.co/, line 93: ReferenceError: Smooch is not defined
+[Child 11818, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1519010651442	geckodriver	INFO	Listening on 127.0.0.1:57415
+1519010652707	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519010655525	Marionette	INFO	Enabled via --marionette
+1519010661456	Marionette	INFO	Listening on port 45007
+1519010662515	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 12059, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 12059, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1519022778262	geckodriver	INFO	Listening on 127.0.0.1:46907
+1519022779544	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519022787841	Marionette	INFO	Enabled via --marionette
+1519022797366	Marionette	INFO	Listening on port 46075
+1519022797559	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519024383951	geckodriver	INFO	Listening on 127.0.0.1:35313
+1519024385326	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519024392232	Marionette	INFO	Enabled via --marionette
+1519024400532	Marionette	INFO	Listening on port 39405
+1519024400691	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519024656859	geckodriver	INFO	Listening on 127.0.0.1:37323
+1519024658207	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519024661773	Marionette	INFO	Enabled via --marionette
+1519024669750	Marionette	INFO	Listening on port 39495
+1519024669869	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1519024768262	geckodriver	INFO	Listening on 127.0.0.1:34929
+1519024769528	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519024772805	Marionette	INFO	Enabled via --marionette
+1519024780100	Marionette	INFO	Listening on port 43539
+1519024782501	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1519025055582	geckodriver	INFO	Listening on 127.0.0.1:36773
+1519025056883	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519025060710	Marionette	INFO	Enabled via --marionette
+1519025069044	Marionette	INFO	Listening on port 39305
+1519025069965	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519025233581	geckodriver	INFO	Listening on 127.0.0.1:38063
+1519025234838	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519025238336	Marionette	INFO	Enabled via --marionette
+1519025245660	Marionette	INFO	Listening on port 37487
+1519025245826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519025664890	geckodriver	INFO	Listening on 127.0.0.1:57841
+1519025666268	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519025670242	Marionette	INFO	Enabled via --marionette
+1519025680686	Marionette	INFO	Listening on port 41109
+1519025682334	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519025946253	geckodriver	INFO	Listening on 127.0.0.1:60069
+1519025947678	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1519025973441	Marionette	INFO	Enabled via --marionette
+1519025986422	Marionette	INFO	Listening on port 32805
+1519025986605	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/devtools.js, line 628: TypeError: inspector.selection is undefined
+JavaScript warning: resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 548ms; unable to cache asm.js in synchronous scripts; try loading asm.js via <script async> or createElement('script'))
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/netmonitor/src/connector/firefox-connector.js, line 101: TypeError: this.tabTarget is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1533096190463	geckodriver	INFO	Listening on 127.0.0.1:51603
+1533096191710	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1533096209103	Marionette	INFO	Listening on port 38607
+1533096209236	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7018, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6803, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1533191834613	geckodriver	INFO	Listening on 127.0.0.1:47443
+1533191834929	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1533191852654	Marionette	INFO	Listening on port 39491
+1533191852736	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533192044729	geckodriver	INFO	Listening on 127.0.0.1:33445
+1533192045951	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1533192054541	Marionette	INFO	Listening on port 40421
+1533192054665	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 589: TypeError: this.tablesData[table] is undefined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1533192171402	geckodriver	INFO	Listening on 127.0.0.1:40715
+1533192172614	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1533192180974	Marionette	INFO	Listening on port 46125
+1533192181091	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 26182, Chrome_ChildThread] WARNING: pipe error (19): Connection reset by peer: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4E0005,name=PLayerTransaction::Msg_ReleaseLayer) Channel error: cannot send/recv
+
+[Child 26182, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
