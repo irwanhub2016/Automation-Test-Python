@@ -8,6 +8,12 @@ from selenium.common.exceptions import NoAlertPresentException
 from selenium.webdriver.chrome.options import Options
 import unittest, time, re
 import progressbar
+import os
+from dotenv import load_dotenv
+load_dotenv()
+from pathlib import Path  # python3 only
+env_path = Path('../login/staging_tcr') / '.env'
+load_dotenv(dotenv_path=env_path)
 from time import sleep
 
 class AddNewInquiry(unittest.TestCase):
@@ -36,20 +42,21 @@ class AddNewInquiry(unittest.TestCase):
         driver.get("https://staging-tcr.bamms.co/#!/login")
         driver.implicitly_wait(5)
 
+        #inizialize
+        secret_username = os.getenv("EMAIL")
+        secret_password = os.getenv("PASSWORD")
+
         # Login
         driver.find_element_by_id("username").click()
         driver.find_element_by_id("username").clear()
-        driver.find_element_by_id("username").send_keys("trodemo@bamms.co")
+        driver.find_element_by_id("username").send_keys(secret_username)
         driver.find_element_by_id("password").click()
         driver.find_element_by_id("password").clear()
-        driver.find_element_by_id("password").send_keys("password")
+        driver.find_element_by_id("password").send_keys(secret_password)
         driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='remove_red_eye'])[1]/following::button[1]").click()
         driver.implicitly_wait(5)
 
         try:
-
-# //*[@id="myform"]/ol/li[2]/div/div[1]/div[2]/div/ul/li[1]/span
-# //*[@id="myform"]/ol/li[2]/div/div[1]/div[2]/div/ul/li[1]
 
         # Add New Inquiry
             driver.find_element_by_xpath("(.//*[@id='app']/div[3]/div/div[1]/div[1]/a)").click()
@@ -79,17 +86,6 @@ class AddNewInquiry(unittest.TestCase):
             driver.find_element_by_xpath("(.//*[@id='myform']/ol/li[2]/div/div[3]/div[2]/div/div[2]/input)").send_keys(Keys.ENTER)
             print("-> Choose Unit")
             time.sleep(3)
-
-        # # Choose Tenant Info
-        #     driver.find_element_by_xpath("(.//*[@id='myform']/ol/li[2]/div/div[5]/div[2]/label)").click()
-        #     print("-> Choose Tenant Info")
-        #     time.sleep(3)
-
-        # Choose inquiry type
-            # driver.find_element_by_xpath("(.//*[@id='fs-form-wrap']/div[3]/button[1])").click()
-            # time.sleep(3)
-            # print("-> Choose inquiry type")
-            # time.sleep(1)                    
 
         # Choose inquiry Engineering
             driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Please choose category'])[1]/following::span[1]").click()
@@ -128,9 +124,6 @@ class AddNewInquiry(unittest.TestCase):
             print("-> Choose Time")
             time.sleep(3)
 
-# //*[@id="q48"]
-# //*[@id="q48"]/div/div
-
         # Fill Notes
             driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Please review your inquiry'])[1]/preceding::input[1]").click()
             time.sleep(3)
@@ -154,51 +147,6 @@ class AddNewInquiry(unittest.TestCase):
         except:
             print("Error, because something in testing !")
 
-        # driver.find_element_by_xpath("(.//*[@id='app']/div[3]/div/div[1]/div[1]/a)").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::button[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Tower'])[1]/following::li[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Floor'])[1]/following::input[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Floor'])[1]/following::span[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Unit'])[2]/following::input[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/following::div[3]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Select Tenant Below'])[1]/following::span[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::button[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Please choose category'])[1]/following::span[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::button[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Plumbing'])[1]/following::div[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::button[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)=concat('What', \"'\", 's the problem?')])[1]/following::span[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::button[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Master Bedroom'])[1]/following::span[1]").click()
-        # time.sleep(5)
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::button[1]").click()
-        # driver.find_element_by_id("pref_time").click()
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='December 2018'])[1]/following::th[1]").click()
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[12]").click()
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::button[1]").click()
-        # driver.find_element_by_name("q48").click()
-        # driver.find_element_by_name("q48").clear()
-        # driver.find_element_by_name("q48").send_keys("asasas")
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::button[1]").click()
-        # self.accept_next_alert = True
-        # driver.find_element_by_xpath("(.//*[normalize-space(text()) and normalize-space(.)='Kids Room'])[2]/following::button[1]").click()
-        # self.assertRegexpMatches(self.close_alert_and_get_its_text(), r"^Are You Sure [\s\S]$")
-    
     def is_element_present(self, how, what):
         try: self.driver.find_element(by=how, value=what)
         except NoSuchElementException as e: return False
